@@ -1,0 +1,10 @@
+def solution(s):
+    dic = {}
+    answer = []
+    for i in range(len(s)):
+        if s[i] in dic:
+            answer.append(i - dic[s[i]])
+        else:
+            answer.append(-1)
+        dic[s[i]] = i    
+    return answer 
