@@ -8,7 +8,7 @@ function solution(quiz) {
             answer.push("X")
         }
     }
-    return answer;
+    return answer
 }
 
 quiz = ["3 - 4 = -3", "5 + 6 = 11"]
